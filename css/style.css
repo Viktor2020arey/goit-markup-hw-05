@@ -18,6 +18,7 @@ p {
   margin: 0;
   padding: 0;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -243,10 +244,29 @@ header {
 .list-img .item {
   width: calc((100% -60px) / 3);
   margin-right: 30px;
+  position: relative;
 }
 
 .list-img .item:last-child {
   margin-right: 0px;
+}
+.container-img {
+  background-color: rgba(47, 48, 58, 0.8);
+  display: block;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.title.img {
+  font-size: 14px;
+  line-height: 1.14em;
+  text-align: center;
+  color: var(--white-text);
+  text-transform: uppercase;
 }
 
 /* our-team */

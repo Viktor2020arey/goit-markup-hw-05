@@ -372,6 +372,9 @@ header {
   letter-spacing: 0.06em;
   text-decoration: none;
 }
+.button:hover {
+  cursor: pointer;
+}
 
 /* Портфолио */
 .card-item {

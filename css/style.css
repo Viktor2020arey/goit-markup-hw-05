@@ -72,6 +72,8 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav a:hover,
 .header-nav a:focus {
@@ -111,6 +113,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress a:hover,
 .header-adress a:focus {
@@ -314,6 +317,9 @@ header {
 .link-icon {
   --color3: var(--white-text);
   --color4: #afb1b8;
+
+  /* transition: var(--color3) 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    var(--color4) 500ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .link-icon:hover {
   --color3: var(--accent-color);
@@ -346,6 +352,9 @@ header {
 }
 .client-icon {
   fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link:hover .client-icon {
   fill: var(--accent-color);
@@ -371,6 +380,8 @@ header {
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-decoration: none;
+
+  transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
   cursor: pointer;
@@ -418,6 +429,9 @@ header {
   line-height: 1.63;
   text-decoration: none;
   text-align: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-portfolio button:hover,
@@ -456,6 +470,8 @@ header {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-link .item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
